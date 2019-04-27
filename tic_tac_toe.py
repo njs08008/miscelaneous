@@ -17,12 +17,12 @@ winner = ''
 done = False
 
 def prettify_board(ugly_board):
-	board = PrettyTable()
-	board.header = False
-	board.hrules = True
+	pretty_board = PrettyTable()
+	pretty_board.header = False
+	pretty_board.hrules = True
 	for row in ugly_board:
-		board.add_row(row)
-	return board
+		pretty_board.add_row(row)
+	return pretty_board
 
 print('Welcome to tic-tac-toe!')
 print('Player_1 is \'' + player_symbols['Player_1'] + '\' and Player_2 is \'' + player_symbols['Player_2'] + '\'.')

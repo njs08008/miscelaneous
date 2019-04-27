@@ -4,7 +4,7 @@ board_definition = []
 for i in range(1, 8, 3):
 	board_definition.append(list(range(i, i + 3)))
 
-current_board = [[''] * 3] * 3
+current_board = [['','',''], ['','',''], ['','','']]
 players = ['Player_1', 'Player_2']
 player_symbols = {'Player_1': 'X', 'Player_2': 'O'}
 current_player = 'Player_1'

@@ -25,7 +25,7 @@ def prettify_board(ugly_board):
 	return pretty_board
 
 print('Welcome to tic-tac-toe!')
-print('Player_1 is \'' + player_symbols['Player_1'] + '\' and Player_2 is \'' + player_symbols['Player_2'] + '\'.')
+print("Player_1 is '%s' and Player_2 is '%s'." % (player_symbols['Player_1'], player_symbols['Player_2']))
 print('Below is your board.')
 print(prettify_board(board_definition))
 print('Please take turns by typing the number corresponding to the space you want.')

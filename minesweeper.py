@@ -1,3 +1,8 @@
+"""
+This is a Python implementation of the classic game Minesweeper.
+It is currently a work in progress, and is nowhere near done.
+"""
+
 from prettytable import PrettyTable
 import random
 
